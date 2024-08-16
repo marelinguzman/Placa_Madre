@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    max-width: 100%;
+    margin: auto;
+    font-size: 7.1px;
+    font-family: 'Reem Kufi', sans-serif;
+    background-color: #ffe1f1;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
