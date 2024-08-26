@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Placa Madre</title>
+    <title>TechMap</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="config.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    
 </head>
 <body>
-    <div class="root"></div>
-    <script type="module" src="main.js"></script>
+    <header>
+        <h1>TechMap</h1>
+    </header>
+    
+    <nav>
+        <button id="btn-pc">PC</button>
+        <button id="btn-gpu">GPU</button>
+        <button id="btn-cpu">CPU</button>
+        <button id="btn-fuentes">Fuentes de Poder</button>
+        <button id="btn-placa">Placa Madre</button>
+        <button id="btn-inicio">Inicio</button>
+        <button id="btn-github">GitHub</button>
+    </nav>
+    
+    <main>
+        <img src="https://cdn.pixabay.com/photo/2015/03/21/06/28/motherboard-683247_1280.png" alt="Placa Madre" id="imagen-placa">
+        <div class="categorias">
+            <button id="btn-ranuras">Ranuras</button>
+            <button id="btn-puertos">Puertos</button>
+            <button id="btn-alimentacion">Alimentación</button>
+            <button id="btn-disipador">Disipador</button>
+            <button id="btn-chips">Chips</button>
+        </div>
+    </main>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="cerrar-modal" class="cerrar">&times;</span>
+            <h2 id="titulo-modal"></h2>
+            <p id="descripcion-modal"></p>
+            <img id="imagen-modal" src="" alt="Imagen del componente">
+            <button id="descargar-imagen">Descargar Imagen</button>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
 </body>
 </html>
