@@ -1,16 +1,16 @@
 export let informacion = [
     { 
-        titulo: "Ranuras",
-        descripcion: "Las ranuras de la placa madre son conectores que permiten la instalación de componentes adicionales, como tarjetas gráficas, de sonido, o de expansión. Están diseñadas para mejorar la capacidad y funcionalidad de la computadora.",
+        titulo: "Placa Madre (Motherboard)",
+        descripcion: "La placa madre es el circuito principal de la computadora donde se conectan todos los componentes como la CPU, la GPU, la memoria RAM, y el almacenamiento.",
         caracteristicas: [
-            "1. Están diseñadas para aceptar componentes específicos según el tipo de ranura (PCI, PCIe, RAM, etc.), asegurando que solo los dispositivos compatibles puedan ser instalados.",
-            "2. Dependiendo del tipo de ranura (por ejemplo, PCIe x16), permiten diferentes tasas de transferencia de datos, lo que es crucial para el rendimiento de componentes como las tarjetas gráficas.",
-            "3. Existen diferentes tipos de ranuras (PCI, PCIe, AGP) con distintas longitudes y formas, adaptándose a las necesidades de diferentes componentes.",
-            "4. Las placas madre vienen con un número limitado de ranuras, lo que determina la cantidad de componentes adicionales que pueden instalarse.",
-            "5. Algunas ranuras pueden ser utilizadas para distintos tipos de tarjetas de expansión, proporcionando flexibilidad al usuario para personalizar su equipo según sus necesidades."
+            "1. Determina qué tipo de procesador es compatible con la placa madre.",
+            "2. Especifica cuánta memoria RAM se puede instalar y de qué tipo (DDR4, DDR5, etc.).",
+            "3. Incluye ranuras PCIe para conectar tarjetas gráficas, tarjetas de sonido y otros componentes.",
+            "4. Soporta unidades de almacenamiento como SSD y HDD a través de puertos SATA y M.2.",
+            "5. Contiene el firmware que gestiona las funciones básicas del hardware antes de cargar el sistema operativo."
         ],
         imagenes: [
-            "https://hardzone.es/app/uploads-hardzone.es/2019/11/Ranuras-placa-base-01-1.jpg?x=480&y=375&quality=40"
+            "https://www.digitarinformatica.com.ar/wp-content/uploads/2023/08/Placa-madre-Gigabyte-B660M-DS3H-AX-S1700-2.jpeg"
         ]
     },
     { 
@@ -110,7 +110,20 @@ export let informacion = [
             "./img/img25.png"
         ]
     },
-    
+    { 
+        titulo: "Ranuras",
+        descripcion: "Las ranuras de la placa madre son conectores que permiten la instalación de componentes adicionales, como tarjetas gráficas, de sonido, o de expansión. Están diseñadas para mejorar la capacidad y funcionalidad de la computadora.",
+        caracteristicas: [
+            "1. Están diseñadas para aceptar componentes específicos según el tipo de ranura (PCI, PCIe, RAM, etc.), asegurando que solo los dispositivos compatibles puedan ser instalados.",
+            "2. Dependiendo del tipo de ranura (por ejemplo, PCIe x16), permiten diferentes tasas de transferencia de datos, lo que es crucial para el rendimiento de componentes como las tarjetas gráficas.",
+            "3. Existen diferentes tipos de ranuras (PCI, PCIe, AGP) con distintas longitudes y formas, adaptándose a las necesidades de diferentes componentes.",
+            "4. Las placas madre vienen con un número limitado de ranuras, lo que determina la cantidad de componentes adicionales que pueden instalarse.",
+            "5. Algunas ranuras pueden ser utilizadas para distintos tipos de tarjetas de expansión, proporcionando flexibilidad al usuario para personalizar su equipo según sus necesidades."
+        ],
+        imagenes: [
+            "https://hardzone.es/app/uploads-hardzone.es/2019/11/Ranuras-placa-base-01-1.jpg?x=480&y=375&quality=40"
+        ]
+    },
     { 
         titulo: "PC (Computadora Personal)", 
         descripcion: "Una PC es una computadora diseñada para el uso personal en el hogar o la oficina. Puede ser usada para realizar una amplia gama de tareas como procesamiento de texto, navegación en internet, juegos y mucho más.",
@@ -122,21 +135,7 @@ export let informacion = [
             "5. Incluye puertos para conectividad como USB, HDMI, Ethernet, entre otros."
         ],        
         imagenes: [
-            "https://www.mielectro.es/blog/wp-content/uploads/2021/12/torres-ordenador-limpieza-1024x756.jpg"
-        ]
-    },
-    { 
-        titulo: "Placa Madre (Motherboard)",
-        descripcion: "La placa madre es el circuito principal de la computadora donde se conectan todos los componentes como la CPU, la GPU, la memoria RAM, y el almacenamiento.",
-        caracteristicas: [
-            "1. Determina qué tipo de procesador es compatible con la placa madre.",
-            "2. Especifica cuánta memoria RAM se puede instalar y de qué tipo (DDR4, DDR5, etc.).",
-            "3. Incluye ranuras PCIe para conectar tarjetas gráficas, tarjetas de sonido y otros componentes.",
-            "4. Soporta unidades de almacenamiento como SSD y HDD a través de puertos SATA y M.2.",
-            "5. Contiene el firmware que gestiona las funciones básicas del hardware antes de cargar el sistema operativo."
-        ],
-        imagenes: [
-            "https://www.digitarinformatica.com.ar/wp-content/uploads/2023/08/Placa-madre-Gigabyte-B660M-DS3H-AX-S1700-2.jpeg"
+            ""
         ]
     },
 ];
